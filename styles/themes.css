@@ -4,3 +4,46 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+
+:root.theme-light{
+    --bg-color:#FFFFFF;
+    --accent-color: #000000;
+    --text-color: #000000;
+    --bg-gradient-color-h-first: #d3d3d3;
+    --bg-gradient-color-v-first: #d3d3d3;
+    --bg-gradient-color-v-second: #e7e7e7;
+    --bg-gradient-color-v-third: #1a1a1a;
+    --accent-heart-color: #000000;
+    --main-color: #000;
+    --button-color: #fff;
+    --main-bg-color: #fff;
+}
+
+
+:root.theme-dark{
+    --bg-color: #000000;
+    --accent-color: #00CC14;
+    --text-color: #00CC14;
+    --bg-gradient-color-h-first: #000000;
+    --bg-gradient-color-v-first: #000000;
+    --bg-gradient-color-v-second: #007f0c; 
+    --bg-gradient-color-v-third: #004306;
+    --accent-heart-color: #00CC14;
+    --main-color: #00CC14;
+    --button-color: #00CC14;
+    --main-bg-color: #000;
+}
+@media (prefers-color-scheme: dark){
+    :root{
+    --bg-color: #000000;
+    --accent-color: #00CC14;
+    --text-color: #00CC14;
+    --bg-gradient-color-h-first: #000000;
+    --bg-gradient-color-v-first: #000000;
+    --bg-gradient-color-v-second: #007f0c; 
+    --bg-gradient-color-v-third: #004306;
+    --accent-heart-color: #00CC14;
+    --main-color: #00CC14;
+    --button-color: #00CC14;
+    --main-bg-color: #000;
+}}

@@ -1,1 +1,21 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --bg-color:#FFFFFF;
+    --accent-color: #000000;
+    --text-color: #000000;
+    --main-color: #000;
+    --button-color: #fff;
+    --main-bg-color: #fff;
+    --bg-gradient-color-h-first: #d3d3d3;
+    --bg-gradient-color-v-first: #d3d3d3;
+    --bg-gradient-color-v-second: #e7e7e7;
+    --bg-gradient-color-v-third: #1a1a1a;
+    --accent-heart-color: #000000;
+    --body-heart: red;
+    --font-family: "Inter-Variable", sans-serif;
+    --accent-font: "PressStart2P", sans-serif;
+}
+
+:root {
+    --bg-image: url(../svg/image.svg);
+}
