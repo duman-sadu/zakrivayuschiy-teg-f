@@ -96,3 +96,20 @@
         opacity: 1;
     }
 }
+
+.theme-menu__button:disabled::before {
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+    margin-left: -3%;
+    width: 300%;
+}
+
+    to {
+    margin-left: 0%;
+    width: 100%;
+}
+}
