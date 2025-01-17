@@ -98,18 +98,13 @@
 }
 
 .theme-menu__button:disabled::before {
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
-    animation-name: slidein;
+    animation: moving 3s cubic-bezier(0.5, -0.7, 0.27, 1.57) infinite alternate;
 }
-@keyframes slidein {
+@keyframes moving {
     from {
-    margin-left: -3%;
-    width: 300%;
-}
-
+        left: -16px;
+    }
     to {
-    margin-left: 0%;
-    width: 100%;
-}
+        left: -10px;
+    }
 }
