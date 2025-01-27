@@ -42,7 +42,7 @@
   padding-block-end: calc(4px + 12px);
   background-color: var(--bg-color);
   gap: 15px;
-  @media (width <=375px){
+  @media (width <=375px) {
     inline-size: 375px;
     max-width: 375px;
     padding-block-start: calc(120px - 15px);
@@ -52,7 +52,7 @@
 .header__title {
   font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
   margin-block-start: 8px;
-  @media (width <=375px){
+  @media (width <=375px) {
     margin-block-start: 14px;
   }
 }
@@ -70,14 +70,14 @@
   position: relative;
 }
 
-.theme-menu__list{
+.theme-menu__list {
   display: flex;
   flex-direction: column;
   gap: 10px;
   margin-block-start: 16px;
   margin-inline-start: 20px;
   font-size: 14px;
-  @media (width <=375px){
+  @media (width <=375px) {
     margin-block-start: 7px;
     margin-block-end: 5px;
     gap: 9px;
@@ -123,13 +123,13 @@
   opacity: 60%;
 }
 
-.theme-menu__button:disabled::before{
-  content: '▶'; 
-  position: absolute;
-  overflow: hidden;
-  display: flex;
-  text-align: center;
-  left: -14px;
+.theme-menu__button:disabled::before {
+    content: '▶'; 
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    text-align: center;
+    left: -14px;
 }
 
 .main {
@@ -150,7 +150,7 @@
   margin-block-end: 5px;
   font-size: 18px;
   font-variation-settings: 'wght' var(--accent-font-card);
-  @media (width <=375px){
+  @media (width <=375px) {
     margin-inline: 9px;
     margin-block-start: 5px;
   }
@@ -207,7 +207,7 @@
   mix-blend-mode: hard-light;
   text-shadow: 1px 1px 0px var(--bg-color);
   color: var(--text-color);
-  @media (width <=375px){
+  @media (width <=375px) {
     right: 10px;
   }
 }
@@ -225,7 +225,7 @@
   gap: 27px;
   padding-block-start: 20px;
   padding-inline: 26px;
-  @media (width <=375px){
+  @media (width <=375px) {
     padding-block-start: 20px;
     padding-inline: 25px;
   }
@@ -235,7 +235,7 @@
   max-height: 126px;
   font-size: 18px;
   line-height: 21px;
-  @media (width <=375px){
+  @media (width <=375px) {
     max-height: fit-content;
   }
 }
@@ -329,7 +329,7 @@
   isolation: isolate;
   margin: 0 auto;
   background-color: var(--bg-color);
-  @media (width <=375px){
+  @media (width <=375px) {
     flex-direction: column;
   }
 }
@@ -340,7 +340,7 @@
   flex: none;
   flex-grow: 0;
   z-index: 1;
-  @media (width <=375px){
+  @media (width <=375px) {
     inline-size: 28px;
     block-size: 28px;
   }
@@ -353,7 +353,7 @@
   padding-block: 30px;
   padding-inline: 30px;
   max-inline-size: 353px;
-  @media (width <=375px){
+  @media (width <=375px) {
     max-inline-size: 341px;
     padding-inline: 41px;
   }
