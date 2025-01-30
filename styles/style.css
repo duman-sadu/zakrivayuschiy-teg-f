@@ -235,7 +235,7 @@
   max-height: 126px;
   font-size: 18px;
   line-height: 21px;
-  @media (width <=375px) {
+  @media (width <=700px) {
     max-height: fit-content;
   }
 }
