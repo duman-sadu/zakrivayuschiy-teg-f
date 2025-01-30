@@ -123,8 +123,7 @@
   opacity: 60%;
 }
 
-.theme-menu__button:disabled
-::before {
+.theme-menu__button:disabled::before {
   position: absolute;
   content: '▶';
   overflow: hidden;
