@@ -32,7 +32,7 @@
     --main-color: #00CC14;
     --button-color: #00CC14;
     --main-bg-color: #000;
-    --accent-font-wght: 400;
+    --accent-font-wght: 465;
     --accent-font-card: 785;
 }
 @media (prefers-color-scheme: dark) {
@@ -47,7 +47,7 @@
     --main-color: #00CC14;
     --button-color: #00CC14;
     --main-bg-color: #000;
-    --accent-font-wght: 400;
+    --accent-font-wght: 465;
     --accent-font-card: 785;
     }
 }

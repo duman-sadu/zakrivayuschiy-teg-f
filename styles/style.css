@@ -38,7 +38,7 @@
   justify-content: center;
   align-items: center;
   border: solid 2px var(--accent-color);
-  padding-block-start: calc(138px - 18px);
+  padding-block-start: calc(145px - 18px);
   padding-block-end: calc(4px + 12px);
   background-color: var(--bg-color);
   gap: 15px;
@@ -73,9 +73,10 @@
 .theme-menu__list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  margin-block-start: 16px;
-  margin-inline-start: 20px;
+  gap: 7px;
+  margin-block-start: 8px;
+  margin-block-end: 8px;
+  margin-inline-start: 18px;
   font-size: 14px;
   @media (width <=375px) {
     margin-block-start: 7px;
@@ -232,18 +233,15 @@
 }
 
 .card__text {
-  max-height: 126px;
   font-size: 18px;
   line-height: 21px;
-  @media (width <=700px) {
-    max-height: fit-content;
-  }
 }
 
 .card__controls {
   display: flex;
   justify-content: end;
   padding-block-end: 24px;
+  gap: 2px;
 }
 
 .card__like-button {
@@ -256,8 +254,18 @@
   align-items: center;
   justify-content: center;
   background: transparent;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   block-size: 38px;
+  padding: 0;
+}
+
+.card__icon-button:focus {
+  border: 2px solid var(--main-color);
+  transition: 0.3s ease;
+}
+
+.card__icon-button:focus-visible {
+  outline: none;
 }
 
 .div__like {
